@@ -9,8 +9,14 @@ nav {
   flex-direction: row-reverse;
 }
 
-nav a{
+nav a {
   padding: 20px;
+  text-decoration: none;
+  transition: background-color 0.4s;
+}
+
+nav a:hover {
+  background: rgba(255,255,255,0.4);
 }
 
 nav a.active {
